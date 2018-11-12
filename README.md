@@ -7,6 +7,20 @@ This demo is build with with Maven 3 and Java 1.8.
 
 ## Usage guide
 
+### Building and running
+
+To build the Docker image, run the following:
+```
+docker build -t openware/hellospring .
+```
+
+To run the resulting image:
+```
+docker run -d -p 8080:8080 openware/hellospring
+```
+
+Wait for the app to fetch all the necessary dependencies and feel free to use it on localhost:8080!
+
 ### cURL
 
 Send a request without an authorization header to see if the API is protected:
