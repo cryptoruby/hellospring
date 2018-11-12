@@ -74,9 +74,6 @@ You should be able to see a proper response:
 
 ### Web UI
 
-Just start the application with the Spring Boot maven plugin (`mvn spring-boot:run`). The application is
-running at [http://localhost:8080](http://localhost:8080).
-
 There are three user accounts present to demonstrate the different levels of access to the endpoints in
 the API and the different authorization exceptions:
 ```
